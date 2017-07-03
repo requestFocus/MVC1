@@ -34,7 +34,7 @@ public class JFrameView {
     public NumberInputDTO showInputPane(String message) {
         Logger.log("message: " + message);
         String value = JOptionPane.showInputDialog(frame, message);
-        Logger.log("acquired: " + message);
+        Logger.log("acquired: " + value);
         return new NumberInputDTO(value);
     }
 
