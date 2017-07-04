@@ -1,0 +1,11 @@
+# IDE specific files should be excluded from repository
+.idea
+.iml
+nbproject
+
+# Build binaries and classes should not be commited as well
+out
+build
+build.xml
+
+manifest.mf
