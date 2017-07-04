@@ -1,3 +1,4 @@
+
 package mvc1.view;
 
 import mvc1.model.NumberInputDTO;
