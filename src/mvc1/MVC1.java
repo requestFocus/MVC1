@@ -50,6 +50,4 @@ public class MVC1 {
         int multipliedValue = numbers[0] * numbers[1];
         return multipliedValue;
     }
-
-
 }
