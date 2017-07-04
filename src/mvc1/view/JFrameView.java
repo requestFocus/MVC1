@@ -27,7 +27,7 @@ public class JFrameView {
 
     /**
      * Prosta metoda zawierająca logikę wyświetlenia wiadomości
-     * i przechwycenia liczmy. Nic więcej.
+     * i przechwycenia liczby. Nic więcej.
      *
      * !!!Zwraca model.
      */

@@ -27,6 +27,7 @@ public class JFrameViewController {
     /**
      * Zwróć uwagę na to, że nazwy metod stanowią również ich dokumentację.
      */
+    
     public void runMultiplicationTask() {
         NumberInputDTO n1 = view.showInputPane("Podaj pierwszą liczbę");
         NumberInputDTO n2 = view.showInputPane("Podaj drugą liczbę");

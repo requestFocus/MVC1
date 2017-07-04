@@ -24,11 +24,11 @@ public class App {
     }
 
     public static void main(String[] args) {
-        new App().run();
+        new App().run();                                                        // nowa instancja App korzysta z metody run(), dzięki czemu runMultiplicationTask może być umieszczony w innej klasie
         System.exit(0);
     }
 
-    private void run() {
+    private void run() {                                                        // sięga do metody kontrolera
         controller.runMultiplicationTask();
     }
 
